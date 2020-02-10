@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  width: 144rem;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Chivo', sans-serif; }
+
+.section-1 {
+  background-image: url(/image/bg-foto1.png), url(/image/bg_main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 124.8rem; }
+  .section-1 .menu-header {
+    padding-top: 11.5rem; }
+    .section-1 .menu-header ul {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .section-1 .menu-header ul a {
+        text-decoration: none;
+        height: 2.5rem;
+        margin-right: 4.9rem; }
+        .section-1 .menu-header ul a .nav-item {
+          text-transform: uppercase;
+          color: white;
+          display: inline-block;
+          list-style: none;
+          font-size: 2rem; }
+          .section-1 .menu-header ul a .nav-item .logo {
+            width: 160px;
+            margin-top: -2rem; }
+      .section-1 .menu-header ul a:nth-child(4) {
+        margin-left: 4.1rem;
+        margin-right: 9rem; }
+  .section-1 .header_text_container {
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 14.3rem;
+    margin-top: 27.4rem; }
+    .section-1 .header_text_container h2 {
+      display: inline-block;
+      font-size: 4.7rem;
+      width: 55.6rem;
+      text-align: right;
+      margin-bottom: 3.5rem; }
+    .section-1 .header_text_container a {
+      color: #ffc901;
+      font-size: 3.75rem;
+      text-decoration: none; }
+    .section-1 .header_text_container .logo_2 {
+      margin-top: 12rem;
+      margin-bottom: 15rem; }
+      .section-1 .header_text_container .logo_2 img {
+        width: 32rem; }
+    .section-1 .header_text_container h1 {
+      font-size: 6.2rem;
+      width: 35.5rem;
+      display: inline-block; }
+      .section-1 .header_text_container h1 span {
+        color: #ffc901; }
+
+.section-2 {
+  background: url(/image/bg-foto2.png) no-repeat;
+  height: 81.1rem; }
+  .section-2 .text_container {
+    width: 58rem;
+    text-align: center;
+    padding-top: 12.5rem;
+    margin-left: 8rem; }
+    .section-2 .text_container h1 {
+      text-transform: uppercase;
+      font-size: 6.2rem;
+      margin-bottom: 11.4rem;
+      position: relative; }
+      .section-2 .text_container h1 span {
+        font-family: 'Atma', cursive; }
+    .section-2 .text_container h1:before {
+      content: url(/image/yellow_shape.png);
+      width: 6.3rem;
+      position: absolute;
+      left: 0; }
+    .section-2 .text_container h1:after {
+      content: url(/image/yellow_shape.png);
+      width: 6.3rem;
+      position: absolute;
+      right: 0; }
+    .section-2 .text_container p {
+      font-family: 'Overpass', sans-serif;
+      font-size: 2.08rem; }
+    .section-2 .text_container .text_link {
+      font-size: 3.33rem;
+      margin-top: 12.2rem; }
+      .section-2 .text_container .text_link span {
+        color: #ffc901; }
